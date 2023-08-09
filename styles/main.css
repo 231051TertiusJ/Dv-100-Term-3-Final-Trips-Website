@@ -99,7 +99,7 @@ ul {
     height: 60vh;
     background-color: #ffffff;
     margin-right: 60px;
-    
+    padding-left: 20px;
     margin-top: 100px;
     border-radius: 10px;
 }
@@ -108,7 +108,7 @@ ul {
     width: 530px;
     height: 20vh;
     margin-top: 20px;
-    margin-left: 20px;
+    
     background-color: #00171F;
     border-radius: 10px;
 }
@@ -118,6 +118,37 @@ ul {
     height: 5px;
     background-color: #00171F;
     border-radius: 20px;
+}
+
+.book-button {
+    width: 190px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #FE2626;
+    border-radius: 20px;
+    border: 0px;
+
+    
+    margin-top: 100px;
+}
+
+.book-button:hover{
+    background-color: #00171F;
+    color: #ffffff;
+}
+
+.filter {
+    width: 1265px;
+    height: 30px;
+    background-color: #FE2626;
+    margin-left: 270px;
+    margin-top: 80px;
+    border-radius: 1px;
+}
+
+.date {
+    margin-left: 470px;
+    margin-bottom: -24px;
 }
 
 /* carousel */
