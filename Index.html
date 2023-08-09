@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <Nav class="nav-bar">
+    <nav class="nav-bar">
         <div class="container">
             <div class="row">
                 <div class="logo">
@@ -33,10 +33,20 @@
                 </div>
         
                 <div class="nav-tabs">
-                    <h5>About us</h5>
-                    <h5>Online courses</h5>
-                    <h5>Trips</h5>
-                    <h5>Contact us</h5>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-links" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-links" href="#">Online courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-links" href="#">Trips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-links" href="#">Contact us</a>
+                        </li>
+                    </ul>
                 </div>
         
                 <div class="search-icon">
@@ -44,7 +54,31 @@
                 </div>
             </div>
         </div>
-    </Nav>
+    </nav>
+
+    <!-- Carousel -->
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/the10128.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/depositphotos_402645482-stock-illustration-world-map-globe-earth-vector.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/LUyGbZ8S1m.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     
 </body>
 </html>
