@@ -22,6 +22,10 @@ ul {
     padding: 0;
 }
 
+.black-box {
+    background-color: #00171F;
+}
+
 /* Logo */
 
 .logo-image {
@@ -33,27 +37,42 @@ ul {
     background-size: cover;
 }
 .logo-name {
-    float: left;
     padding-left: 70px;
     margin-top: -55px;
 }
 
 /* Nav groups */
 
-.nav-tabs {
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.nav-link {
+    margin-left: 30px;
+}
+
+.about {
+    float: left;
     
 }
-.nav-about {
-
+.courses {
+    float: left;
 }
-.nav-courses {
-
+.trips {
+    float: left;
 }
-.nav-trips {
-
+.contact {
+    float: left;
 }
-.nav-contact {
 
+.bg-body-tertiary {
+    background-color: #00171F;
+}
+.navbar-expand-lg {
+    background-color: #00171F;
+}
+.navbar {
+    background-color: #00171F;
 }
 
 
@@ -63,11 +82,42 @@ ul {
     float: right;
     width: 40px;
     height: 40px;
+    margin-left: 500px;
     border-radius: 50%;
     background-color: #ffffff;
-    margin-right: 20px;
-    margin-top: -170px;
     background-image: url('../assets/search1.png');
     background-position: center;
     background-size: cover;
+}
+
+/* Trips */
+
+.col {
+    background-color: #00171F;
+}
+
+.trips-box {
+    width: 200px;
+    height: 60vh;
+    background-color: #ffffff;
+    margin-right: 60px;
+    
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.image-box {
+    width: 530px;
+    height: 20vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #00171F;
+    border-radius: 10px;
+}
+
+.hr-line {
+    width: 60vh;
+    height: 5px;
+    background-color: #00171F;
+    border-radius: 20px;
 }
