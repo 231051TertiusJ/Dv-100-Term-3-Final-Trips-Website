@@ -14,7 +14,7 @@ const browseTrips = [
         name: "Trips#1",
         price: 16905,
         description: "lorem",
-        lightAmount: "low",
+        tripsPrice: "low",
         addedDate: "10/09/2024",
         origin: ""
     },
@@ -23,7 +23,7 @@ const browseTrips = [
         name: "Trips #2",
         price: 16905,
         description: "lorem",
-        lightAmount: "low",
+        tripsPrice: "low",
         addedDate: "10/09/2024",
         origin: ""
     },
@@ -32,7 +32,7 @@ const browseTrips = [
         name: "Trips #3",
         price: 16905,
         description: "lorem",
-        lightAmount: "low",
+        tripsPrice: "low",
         addedDate: "10/09/2024",
         origin: ""
     },
@@ -41,7 +41,7 @@ const browseTrips = [
         name: "Trips #4",
         price: 16905,
         description: "lorem",
-        lightAmount: "low",
+        tripsPrice: "low",
         addedDate: "10/09/2024",
         origin: ""
     },
@@ -50,7 +50,7 @@ const browseTrips = [
         name: "Trips #5",
         price: 16905,
         description: "lorem",
-        lightAmount: "low",
+        tripsPrice: "low",
         addedDate: "10/09/2024",
         origin: ""
     },
@@ -59,7 +59,7 @@ const browseTrips = [
         name: "Trips #6",
         price: 16905,
         description: "lorem",
-        lightAmount: "low",
+        tripsPrice: "low",
         addedDate: "10/09/2024",
         origin: ""
     },
@@ -168,7 +168,7 @@ const browseTrips = [
     // Filter Trips
   
     if (appliedFilter) {
-      filteredSortedBrowseTrips = browseTrips.filter(trip => trip.lightAmount == appliedFilter);
+      filteredSortedBrowseTrips = browseTrips.filter(trip => trip.tripsPrice == appliedFilter);
     } else {
       filteredSortedBrowseTrips = browseTrips;
     }
@@ -223,7 +223,7 @@ const browseTrips = [
     
   //   $.ajax({
   //     type: "GET",
-  //     url: "https://api.openweathermap.org/data/2.5/weather?q=Texas&appid=0c8a911e5c7f8e5a03991afe2075de21",
+  //     url: "https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=7ebea16af78c45a7c2040188f72f27e4",
   //     success: function (data) {
   //       temp = data;
   //       console.log(temp);
