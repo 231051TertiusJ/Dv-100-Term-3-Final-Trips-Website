@@ -4,6 +4,8 @@ $(document).ready(function() {
 
   console.log("Document is Ready");
 
+  document.getElementById("change").text = "This is the New Text";
+
 })
 
 
