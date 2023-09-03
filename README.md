@@ -23,13 +23,13 @@ Demo Video
 [Clickable Link: Vimeo]{https://vimeo.com/860614837/b93496647b?share=copy}
 
 Screenshots, Yay!
-![Screenie 1]{/assets/screen1}
-![Screenie 2]{/assets/screen2}
-![Screenie 3]{/assets/screen3}
-![Screenie 4]{/assets/screen4}
-![Screenie 5]{/assets/screen5}
-![Screenie 6]{/assets/screen6}
-![Screenie 7]{/assets/screen7}
+![Screenie 1]{/assets/screen1.png}
+![Screenie 2]{/assets/screen2.png}
+![Screenie 3]{/assets/screen3.png}
+![Screenie 4]{/assets/screen4.png}
+![Screenie 5]{/assets/screen5.png}
+![Screenie 6]{/assets/screen6.png}
+![Screenie 7]{/assets/screen7.png}
 
 
 ### Built With
