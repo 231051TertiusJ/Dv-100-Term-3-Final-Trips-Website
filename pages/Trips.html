@@ -20,7 +20,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand" href="../Index.html">
+          <a class="navbar-brand" href="/Index.html">
                 <div class="logo-image"></div>
                 <div class="logo-name"><a link rel="stylesheet" href=""><h1>Anne's Pardon</h1></a></div>
           </a>
@@ -41,7 +41,7 @@
                 <a class="nav-link" href="pages/Trips.html">Trips</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/Contactus.html">Contact us</a>
+                <a class="nav-link" href="/Checkout.html">Contact us</a>
               </li>
               
             </ul>
@@ -74,7 +74,30 @@
 
           <div class="row py-5 gy-3" id="tripsContainer">
 
-            
+           <template id="tripCardTemplate">
+              <div class="col-4">
+
+                <div class="card">
+                  <div class="col trips-box">
+                    <img class="image-box card-img-top" src="../assets/photos-from-bahamas--the-exumas-941470810-c78152620c954f70903dc12efd67d80b.jpg" alt=""></img>
+                    <div class="card-body">
+                      <h2 class="card-title" id="nameText">Trips #1</h2>
+                      <p class="date">10/09/2024</p>
+                      <h5 class="card-text" id="priceText">R16905</h5>
+                      <div class="hr-line"></div>
+                      <p class="card-text" id="descriptionText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus nobis aliquam, nihil, aut iusto debitis hic mollitia ex, neque quo aspernatur sequi eligendi in fuga cupiditate numquam sunt inventore?</p>
+  
+                      <h5 class="card-text" id="descriptionText">Current Conditions:</h5>
+                      <h6 class="card-text" id="originTemp">24°C</h6>
+                      <button class="book-button">Book A Trip</button>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+           </template> 
   
           </div>
 
@@ -84,30 +107,36 @@
         <div class="container">
             <div class="row" id="tripscontainer">
                 <template id="tripsCardTemp">
-                    <div class="col trips-box">
-                      <img class="image-box card-img-top" src="../assets/photos-from-bahamas--the-exumas-941470810-c78152620c954f70903dc12efd67d80b.jpg" alt=""></img>
-                      <h2 class="card-title" id="nameText">Trips #1</h2>
-                      <p class="date">10/09/2024</p>
-                      <h5 class="card-text" id="priceText">R16905</h5>
-                      <div class="hr-line"></div>
-                      <p class="card-text" id="priceText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus nobis aliquam, nihil, aut iusto debitis hic mollitia ex, neque quo aspernatur sequi eligendi in fuga cupiditate numquam sunt inventore?</p>
 
-                      <h5>Current Conditions:</h5>
-                      <h6>24°C</h6>
-                      <button class="book-button">Book A Trip</button>
+                    <div class="card">
+                      <div class="col trips-box">
+                        <img class="image-box card-img-top" src="../assets/photos-from-bahamas--the-exumas-941470810-c78152620c954f70903dc12efd67d80b.jpg" alt=""></img>
+                        <h2 class="card-title" id="nameText">Trips #1</h2>
+                        <p class="date">10/09/2024</p>
+                        <h5 class="card-text" id="priceText">R16905</h5>
+                        <div class="hr-line"></div>
+                        <p class="card-text" id="priceText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus nobis aliquam, nihil, aut iusto debitis hic mollitia ex, neque quo aspernatur sequi eligendi in fuga cupiditate numquam sunt inventore?</p>
+  
+                        <h5>Current Conditions:</h5>
+                        <h6>24°C</h6>
+                        <button class="book-button">Book A Trip</button>
+                      </div>
                     </div>
-                    <div class="col trips-box">
-                      <div class="image-box"></div>
-                      <h2>Trips #2</h2>
-                      <p class="date">10/09/2024</p>
-                      <h5>R16905</h5>
-                      <div class="hr-line"></div>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus nobis aliquam, nihil, aut iusto debitis hic mollitia ex, neque quo aspernatur sequi eligendi in fuga cupiditate numquam sunt inventore?</p>
 
-                      <h5>Current Conditions:</h5>
-                      <h6>24°C</h6>
-                      <button class="book-button">Book A Trip</button>
-                  </div>
+                    <div class="card">
+                      <div class="col trips-box">
+                        <div class="image-box"></div>
+                        <h2>Trips #2</h2>
+                        <p class="date">10/09/2024</p>
+                        <h5>R16905</h5>
+                        <div class="hr-line"></div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus nobis aliquam, nihil, aut iusto debitis hic mollitia ex, neque quo aspernatur sequi eligendi in fuga cupiditate numquam sunt inventore?</p>
+  
+                        <h5>Current Conditions:</h5>
+                        <h6>24°C</h6>
+                        <button class="book-button">Book A Trip</button>
+                      </div>
+                    </div>
                 </template>
             </div>
 
@@ -180,7 +209,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="/js/main.js"></script>
 
 </body>
 </html>

@@ -225,6 +225,25 @@ const browseTrips = [
     $(this).find(".card-img-top").toggleClass("small");
   
   });
+
+
+
+// ----------------------------------------------------------------
+  // When remove icon is clicked
+  // ----------------------------------------------------------------
+
+  $(document).on('click', ".delete", function(){
+    $(this).parents("tr").remove();
+    $(".add-new").removeAttr("disabled");
+  })
+
+
+
+
+
+
+
+
   
   // https://api.openweathermap.org/data/2.5/weather?q=Pretoria&appid=0c8a911e5c7f8e5a03991afe2075de21
   

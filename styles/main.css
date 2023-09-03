@@ -17,6 +17,10 @@ ul {
     padding: 0;
 }
 
+.dark {
+    background-color: #00171F;
+}
+
 .black-box {
     background-color: #00171F;
 }
@@ -287,3 +291,36 @@ ul {
     background-color: #002E3E;
 }
 
+
+
+/* Table/Checkout */
+
+.table {
+    width: 70%;
+    height: auto;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.remove-icon {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    background-image: url("../assets/pngegg\ \(31\).png");
+    background-position: center;
+    background-size: cover;
+}
+.remove-icon:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    background-image: url("../assets/Delete\ 2.png");
+    border: black 2px;
+}
+
+
+.table-image {
+    width: 300px;
+    height: 150px;
+
+}
