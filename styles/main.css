@@ -202,6 +202,49 @@ ul {
     background-size: cover;
 }
 
+
+
+
+
+.carousel-text1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 100px;
+    margin-top: -600px;
+}
+
+.carousel-text2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.hr-carousel {
+    width: 81%;
+    height: 20px;
+    background-color: #FE2626;
+    color: #FE2626;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-top: -22px;
+}
+
+.carousel-button {
+    width: 30%;
+    height: 95px;
+    background-color: #00A8E8;
+    color: #ffffff;
+    border: none ;
+    border-radius: 50px;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.carousel-button:hover {
+    background-color: #00171F;
+    
+}
+
 /* Index page */
 
 .left-img-head {
@@ -324,3 +367,5 @@ ul {
     height: 150px;
 
 }
+
+
