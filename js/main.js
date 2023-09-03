@@ -119,7 +119,7 @@ const browseTrips = [
       // Open weather API call for getting the temp
       $.ajax({
         type: "GET",
-        url: "https://api.openweathermap.org/data/2.5/weather?q=" + trip.origin + "7ebea16af78c45a7c2040188f72f27e4",
+        url: "http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=" + trip.origin + "7ebea16af78c45a7c2040188f72f27e4",
         success: function (data) {
           tempData = data;
           console.log(tempData);
